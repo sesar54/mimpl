@@ -9,3 +9,7 @@ edition = "2018"
 [lib]
 name = "mimpl"
 plugin = true
+
+[dependencies]
+syn = "1.0.14"
+quote = "1.0"
