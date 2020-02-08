@@ -7,3 +7,7 @@ edition = "2018"
 [dependencies]
 syn = "1.0.14"
 quote = "1.0"
+
+[lib]
+name = "mimpl"
+path = "src/lib.rs"
