@@ -106,7 +106,7 @@ macro_rules! mimpl {
                 $closure(self, f)
             }
         }
-    }
+    };
     (From; $from:path, $type:path, $closure:expr) => {
         impl std::convert::From<$from> for $type {
             fn from(from: $from) -> Self {
